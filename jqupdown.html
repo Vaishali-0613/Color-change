@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+<body>
+    <p id="demo">jQuery is fun!</p>
+    <button onclick="myFunction()">Click me</button>
+    <script>
+        $(document).ready(function() {
+            $("button").click(function() {
+                $("#demo").css("color","red");
+                $("#demo").slideDown("slow");
+                $("#demo").slideDown("slow");
+            });
+        });
+    </script>
+</body>
+</html>
